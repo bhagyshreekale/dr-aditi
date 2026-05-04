@@ -1,0 +1,127 @@
+.section { padding: 5rem 0; background: #f9fafb; }
+
+.badge {
+  display: inline-block;
+  font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: #e2725b; border: 1px solid #fecdd3;
+  background: #fff; border-radius: 999px;
+  padding: 4px 16px; margin-bottom: 1rem;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 400; color: #111827;
+  margin-bottom: 0.75rem; line-height: 1.2;
+}
+.heading em { font-style: italic; color: #e2725b; }
+
+.subtext { font-size: 0.9375rem; color: #6b7280; line-height: 1.7; max-width: 480px; margin: 0 auto; }
+
+/* Form card */
+.formCard {
+  background: #fff; border-radius: 24px;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  padding: 2.5rem;
+}
+
+.fieldGroup { margin-bottom: 2rem; }
+
+.fieldLabel {
+  display: block; font-size: 0.875rem;
+  font-weight: 600; color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+/* Pill buttons */
+.pillGroup { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.pillBtn {
+  padding: 7px 16px; border-radius: 999px;
+  border: 1px solid #e5e7eb; background: #fff;
+  font-size: 0.8125rem; font-weight: 500; color: #374151;
+  cursor: pointer; transition: all 0.15s;
+}
+
+.pillBtn:hover { border-color: #fecdd3; color: #e2725b; }
+
+.pillActive { border-color: #e2725b; background: #fff1f2; color: #e2725b; font-weight: 600; }
+
+/* Stars */
+.stars { display: flex; gap: 4px; }
+
+.starBtn {
+  background: none; border: none; padding: 0; cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.starBtn:hover { transform: scale(1.15); }
+
+.ratingWord { font-size: 0.8125rem; font-weight: 600; color: #e2725b; margin-top: 6px; margin-bottom: 0; }
+
+/* Category ratings */
+.categoryGrid { display: flex; flex-direction: column; gap: 12px; }
+
+.categoryRow {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; gap: 8px;
+}
+
+.categoryName { font-size: 0.875rem; color: #374151; min-width: 160px; }
+
+/* Textarea */
+.textarea {
+  width: 100%; border-radius: 12px;
+  border: 1px solid #e5e7eb; padding: 12px 14px;
+  font-size: 0.875rem; color: #374151;
+  font-family: inherit; resize: none;
+  transition: border-color 0.15s;
+  outline: none; line-height: 1.6;
+}
+
+.textarea:focus { border-color: #fda4af; box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.08); }
+.textarea::placeholder { color: #d1d5db; }
+
+/* Submit */
+.submitBtn {
+  display: block; width: 100%;
+  background: #e2725b; color: #fff;
+  border: none; border-radius: 14px;
+  font-size: 0.9375rem; font-weight: 500;
+  padding: 15px; cursor: pointer;
+  transition: background 0.15s;
+}
+
+.submitBtn:hover { background: #e2725b; }
+
+/* Success */
+.successIcon {
+  font-size: 3rem; margin-bottom: 1.25rem;
+  width: 72px; height: 72px;
+  border-radius: 20px; background: #f0fdf4; border: 1px solid #bbf7d0;
+  display: flex; align-items: center; justify-content: center;
+  margin-left: auto; margin-right: auto;
+}
+
+.successTitle { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 400; color: #111827; margin-bottom: 0.75rem; }
+.successText  { font-size: 0.9375rem; color: #6b7280; line-height: 1.7; }
+.successSig   { font-size: 0.875rem; font-weight: 500; color: #374151; margin-top: 0.5rem; }
+
+.retakeLink {
+  background: none; border: none; padding: 0;
+  font-size: 0.875rem; color: #e2725b;
+  text-decoration: underline; cursor: pointer;
+  margin-top: 1rem; display: inline-block;
+  transition: color 0.15s;
+}
+
+.retakeLink:hover { color: #e2725b; }
+
+@media (max-width: 576px) {
+  .section { padding: 3rem 0; }
+  .formCard { padding: 1.5rem; }
+  .categoryName { min-width: auto; font-size: 0.8125rem; }
+}
