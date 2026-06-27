@@ -154,11 +154,13 @@ export default function Contact() {
             {/* MAP - COL 6 */}
             <Col lg={6}>
               <div className="map-wrapper h-100">
-                <iframe
-                  src="https://www.google.com/maps?q=NextGen%20Advanced%20Cosmetic%20and%20Dermatology%20Clinic%20Nashik&output=embed"
-                  loading="lazy"
-                  allowFullScreen
-                />
+            <iframe
+                src="https://www.google.com/maps?q=Office+No.+4+Dharmaraj+Plaza+Old+Gangapur+Naka+Nashik+422005&output=embed"
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                title="Derma Suite Clinic Location"
+              ></iframe>
               </div>
             </Col>
           </Row>
