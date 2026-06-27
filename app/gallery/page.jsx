@@ -45,6 +45,19 @@ const TABS = [
     accent: "#F97316",
     accentBg: "#FFF7ED",
   },
+  {
+    key: "event",
+    label: "Events & Awards",
+    sublabel: "Moments & milestones",
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="8" r="6" />
+        <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+      </svg>
+    ),
+    accent: "#EAB308",
+    accentBg: "#FEF9C3",
+  },
 ];
 
 const gallery = {
@@ -83,6 +96,10 @@ const gallery = {
     "/images/services/meso-hair.webp",
     "/images/services/old-scar-treatment.webp",
     "/images/services/smp.webp",
+  ],
+  event: [
+    "/images/gallery/event.webp",
+    "/images/gallery/award.webp",
   ],
 };
 
