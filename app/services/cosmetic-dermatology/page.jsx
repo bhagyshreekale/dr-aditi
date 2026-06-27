@@ -10,7 +10,7 @@ export default function CosmeticDermatology() {
   const services = [
     {
       title: "Botox & Dermal Fillers",
-      img: "/images/services/Botox-derma.jpg",
+      img: "/images/services/Botox-derma.webp",
       desc: "Non-surgical injectable treatments that relax dynamic wrinkles and restore facial volume for a smoother, youthful look.",
       highlights: [
         "15–30 min procedure",
@@ -27,7 +27,7 @@ export default function CosmeticDermatology() {
     },
     {
       title: "Chemical Peels",
-    img: "/images/services/chemical-peel.jpg",
+    img: "/images/services/chemical-peel.webp",
       desc: "Dermatologist-grade exfoliation that removes dead skin layers, treats pigmentation and improves acne scars.",
       highlights: [
         "Brighter skin tone",
@@ -44,7 +44,7 @@ export default function CosmeticDermatology() {
     },
     {
       title: "Skin Rejuvenation",
-    img: "/images/services/skin-rejuvenation.jpg",
+    img: "/images/services/skin-rejuvenation.webp",
       desc: "Advanced treatments like PRP, medi-facials and laser toning to hydrate, repair and renew damaged skin.",
       highlights: [
         "Deep hydration",
@@ -61,7 +61,7 @@ export default function CosmeticDermatology() {
     },
     {
       title: "Anti-aging Solutions",
-      img: "/images/services/anti.jpg",
+      img: "/images/services/anti.webp",
       desc: "Customized anti-aging protocols combining injectables, peels and skin boosters for long-term youthful skin.",
       highlights: [
         "Skin tightening",

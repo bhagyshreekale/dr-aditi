@@ -15,41 +15,41 @@ export default function Home() {
       title: "Cosmetic Dermatology",
       description:
         "Advanced aesthetic treatments including Botox, fillers, and anti-aging solutions.",
-      image: "/images/services/cosmeticderma.jpg",
+      image: "/images/services/cosmeticderma.webp",
       link: "/services/cosmetic-dermatology",
     },
     {
       title: "Laser Treatment",
       description:
         "Safe and effective laser procedures for pigmentation, scars, and hair removal.",
-      image: "/images/services/laser.jpg",
+      image: "/images/services/laser.webp",
       link: "/services/laser-treatment",
     },
     {
       title: "Hair Loss Treatment",
       description:
         "PRP therapy and medical treatments for hair thinning and baldness.",
-      image: "/images/services/hair-loss.jpg",
+      image: "/images/services/hair-loss.webp",
       link: "/services/hair-loss-treatment",
     },
     {
       title: "Acne & Scar Treatment",
       description: "Customized acne solutions with scar reduction treatments.",
-      image: "/images/services/acne-scar.jpg",
+      image: "/images/services/acne-scar.webp",
       link: "/services/medical-dermatology",
     },
     {
       title: "Skin Rejuvenation",
       description:
         "Glow-enhancing therapies to restore youthful and healthy skin.",
-      image: "/images/services/skin-rejuvenation.jpg",
+      image: "/images/services/skin-rejuvenation.webp",
       link: "/services/surgical-dermatology",
     },
     {
       title: "Chemical Peels",
       description:
         "Medical-grade peels to improve texture, tone, and pigmentation.",
-      image: "/images/services/chemical-peel.jpg",
+      image: "/images/services/chemical-peel.webp",
       link: "/services/cosmetic-dermatology",
     },
   ];
@@ -184,7 +184,7 @@ export default function Home() {
               <div className="about-img-bg">
                 <div className="about-img-wrapper">
                   <img
-                    src="/images/gallery/gallery6.png"
+                    src="/images/gallery/gallery6.webp"
                     alt="Dr Aditi Patil"
                   />
                 </div>

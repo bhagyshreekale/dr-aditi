@@ -7,12 +7,12 @@ import acneBefore from "../public/images/Anti-Aging-Solution.jpg"
 import acneAfter from "../public/images/Anti-Aging-Solution.jpg";
 import hairBefore from "../public/images/hair-loss.jpg"
 import hairAfter from "../public/images/laser-hair.jpg"
-import laserBefore from "../public/images/services/fractional-co2-laser.jpg"
-import laserAfter from "../public/images/services/fractional-co2-laser.jpg"
-import oldScarBefore from "../public/images/services/old-scar-treatment.jpg"
-import oldScarAfter from "../public/images/services/old-scar-treatment.jpg"
-import smpBefore from "../public/images/services/smp.jpg"
-import smpAfter from "../public/images/services/smp.jpg"
+import laserBefore from "../public/images/services/fractional-co2-laser.webp"
+import laserAfter from "../public/images/services/fractional-co2-laser.webp"
+import oldScarBefore from "../public/images/services/old-scar-treatment.webp"
+import oldScarAfter from "../public/images/services/old-scar-treatment.webp"
+import smpBefore from "../public/images/services/smp.webp"
+import smpAfter from "../public/images/services/smp.webp"
 
 
 

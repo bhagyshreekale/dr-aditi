@@ -62,7 +62,7 @@ export default function About() {
               <div className="about-img-bg">
                 <div className="about-img-wrapper">
                   <img
-                    src="/images/gallery/gallery6.png"
+                    src="/images/gallery/gallery6.webp"
                     alt="Dr Aditi Patil"
                   />
                 </div>
@@ -141,7 +141,7 @@ export default function About() {
           <Col lg={6}>
             <div className="about-image-wrapper">
               <img
-                src="/images/services/about.jpg"
+                src="/images/services/about.webp"
                 alt="Skin Treatment"
                 className="about-main-img"
               />

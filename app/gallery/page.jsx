@@ -49,37 +49,40 @@ const TABS = [
 
 const gallery = {
   clinic: [
-    "/images/gallery/P4600120.JPG",
-    "/images/gallery/P4600146.JPG",
-    "/images/gallery/P4600178.JPG",
-    "/images/gallery/P4600184.JPG",
-    "/images/gallery/IMG_8424.jpg",
-    "/images/gallery/IMG_8474.jpg",
-    "/images/gallery/IMG_8478.jpg",
-    "/images/gallery/IMG_8480.jpg",
-    "/images/gallery/IMG_8503.jpg",
-    "/images/gallery/IMG_8507.jpg",
-    "/images/gallery/IMG_8508.jpg",
-    "/images/gallery/IMG_8514.jpg",
-    "/images/gallery/IMG_8537.jpg",
-    "/images/gallery/IMG_8550.jpg",
-    "/images/gallery/IMG_8554.jpg",
-    "/images/gallery/IMG_8576.jpg",
+    "/images/gallery/P4600120.webp",
+    "/images/gallery/P4600146.webp",
+    "/images/gallery/P4600178.webp",
+    "/images/gallery/P4600184.webp",
+    "/images/gallery/IMG_8424.webp",
+    "/images/gallery/IMG_8474.webp",
+    "/images/gallery/IMG_8478.webp",
+    "/images/gallery/IMG_8480.webp",
+    "/images/gallery/IMG_8503.webp",
+    "/images/gallery/IMG_8507.webp",
+    "/images/gallery/IMG_8508.webp",
+    "/images/gallery/IMG_8514.webp",
+    "/images/gallery/IMG_8537.webp",
+    "/images/gallery/IMG_8550.webp",
+    "/images/gallery/IMG_8554.webp",
+    "/images/gallery/IMG_8576.webp",
   ],
   procedure: [
-    "/images/gallery/gallery2.png",
-    "/images/gallery/gallery3.png",
-    "/images/gallery/gallery4.png",
-    "/images/gallery/gallery5.png",
-    "/images/gallery/gallery6.png",
-    "/images/gallery/gallery7.png",
+    "/images/gallery/gallery2.webp",
+    "/images/gallery/gallery3.webp",
+    "/images/gallery/gallery4.webp",
+    "/images/gallery/gallery5.webp",
+    "/images/gallery/gallery6.webp",
+    "/images/gallery/gallery7.webp",
+        "/images/gallery/new.webp",
+
+
   ],
   patient: [
-    "/images/services/fractional-co2-laser.jpg",
-    "/images/services/hair-botox.jpg",
-    "/images/services/meso-hair.jpg",
-    "/images/services/old-scar-treatment.jpg",
-    "/images/services/smp.jpg",
+    "/images/services/fractional-co2-laser.webp",
+    "/images/services/hair-botox.webp",
+    "/images/services/meso-hair.webp",
+    "/images/services/old-scar-treatment.webp",
+    "/images/services/smp.webp",
   ],
 };
 
@@ -217,7 +220,7 @@ function GalleryInner() {
               )}
             </div>
 
-            {/* COUNT BADGE */}
+          
             <div className="count-pill" style={{ borderColor: activeTabData.accent + "33", color: activeTabData.accent }}>
               <span className="count-num">{activeImages.length}</span>
               <span className="count-text">photos</span>
@@ -225,6 +228,10 @@ function GalleryInner() {
           </div>
         </Container>
       </section>
+      <section>
+        
+        </section>
+
 
       {/* GRID */}
       <section className="gallery-grid">

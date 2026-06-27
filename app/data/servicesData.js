@@ -4,7 +4,7 @@ const servicesData = [
 
 {
 title: "Acne peel",
-image: "../../images/services/acne-peel.jpg",
+image: "../../images/services/acne-peel.webp",
 description:
 "Acne peel is a medical chemical exfoliation treatment that removes dead skin cells, unclogs pores and reduces acne breakouts. It also helps improve acne scars and skin texture.",
 benefits: [
@@ -30,7 +30,7 @@ idealFor: ["Acne", "Oily skin", "Acne marks"]
 
 {
 title: "Glow peel",
-image: "../../images/services/glow-peel.jpg",
+image: "../../images/services/glow-peel.webp",
 description:
 "Glow peel is a gentle chemical exfoliation designed to brighten dull skin and improve overall skin tone. It removes dead skin cells and stimulates fresh skin renewal.",
 benefits: [
@@ -54,7 +54,7 @@ idealFor: ["Dull skin", "Uneven tone"]
 
 {
 title: "Party peel",
-image: "../../images/services/party-peel.jpg",
+image: "../../images/services/party-peel.webp",
 description:
 "Party peel is a quick skin rejuvenation treatment designed to give instant glow before special events.",
 benefits: [
@@ -76,7 +76,7 @@ idealFor: ["Events", "Dull skin"]
 
 {
 title: "Yellow peel",
-image: "../../images/services/yellow-peel.jpg",
+image: "../../images/services/yellow-peel.webp",
 description:
 "Yellow peel is an advanced chemical peel that improves pigmentation, acne marks and uneven skin tone.",
 benefits: [
@@ -98,7 +98,7 @@ idealFor: ["Pigmentation", "Acne scars"]
 
 {
 title: "Antiaging peel",
-image: "../../images/services/antiaging-peel.jpg",
+image: "../../images/services/antiaging-peel.webp",
 description:
 "Antiaging peel stimulates collagen production to reduce fine lines and improve skin elasticity.",
 benefits: [
@@ -120,7 +120,7 @@ idealFor: ["Aging skin"]
 
 {
   title: "Dermaplaning",
-image: "../../images/services/dermaplaning.jpg",
+image: "../../images/services/dermaplaning.webp",
   description:
     "Dermaplaning is a safe and highly effective physical exfoliation procedure. It involves using a specialized surgical scalpel to gently scrape away the top layer of dead skin cells along with fine vellus hair (peach fuzz), revealing a smoother, brighter complexion.",
   benefits: [
@@ -146,7 +146,7 @@ image: "../../images/services/dermaplaning.jpg",
 
 {
   title: "Phenol peel",
-image: "../../images/services/phenol-peel.jpg",
+image: "../../images/services/phenol-peel.webp",
   description:
     "Phenol peel is the strongest type of chemical peel, penetrating deep into the dermal layers to treat severe skin concerns. It is highly effective for deep wrinkles, significant sun damage, and precancerous skin growths, essentially 'resetting' the skin's texture.",
   benefits: [
@@ -174,7 +174,7 @@ image: "../../images/services/phenol-peel.jpg",
 
 {
   title: "Scalp peel",
-  image: "../../images/services/scalp-peel.jpg",
+  image: "../../images/services/scalp-peel.webp",
   description:
     "A Scalp peel is a specialized exfoliation treatment for the head that uses chemical or physical exfoliants to remove buildup, excess oil, and dead skin cells. It detoxifies the hair follicles, improves scalp health, and creates an optimal environment for healthy hair growth.",
   benefits: [
@@ -202,7 +202,7 @@ image: "../../images/services/phenol-peel.jpg",
 
 {
   title: "Body peel",
-  image: "../../images/services/body-peel.jpg",
+  image: "../../images/services/body-peel.webp",
   description:
     "A Body peel involves the application of chemical exfoliants to larger areas of the body, such as the back, arms, legs, or chest. It effectively treats body acne, keratosis pilaris (chicken skin), and tanning, leaving the skin on your body as smooth and radiant as your face.",
   benefits: [
@@ -230,7 +230,7 @@ image: "../../images/services/phenol-peel.jpg",
 
 {
   title: "Cleanup",
-  image: "../../images/services/cleanup.jpg",
+  image: "../../images/services/cleanup.webp",
   description:
     "A professional skin cleanup is an essential maintenance treatment that focuses on deep cleansing and manual extraction. It removes surface impurities, whiteheads, and blackheads while refreshing the skin's surface without the intensive steps of a full medical facial.",
   benefits: [
@@ -256,7 +256,7 @@ image: "../../images/services/phenol-peel.jpg",
 },
 {
 title: "Hydrafacial",
-image: "../../images/services/hydrafacial.jpg",
+image: "../../images/services/hydrafacial.webp",
 description:
 "Hydrafacial is an advanced facial treatment that deeply cleanses, exfoliates and hydrates the skin using vortex technology.",
 benefits: [
@@ -278,7 +278,7 @@ idealFor: ["All skin types"]
 },
 {
   title: "Oxygenofacial",
-  image: "../../images/services/oxygenofacial.jpg",
+  image: "../../images/services/oxygenofacial.webp",
   description:
     "An Oxygenofacial is a non-invasive treatment that delivers highly concentrated oxygen molecules and a specialized serum of vitamins and antioxidants directly into the skin. This 'airbrushed' delivery system hydrates the skin instantly and stimulates the renewal of cells for a plump, dewy look.",
   benefits: [
@@ -304,7 +304,7 @@ idealFor: ["All skin types"]
 },
 {
 title: "Medifacial",
-image: "../../images/services/cosmeticderma.jpg",
+image: "../../images/services/cosmeticderma.webp",
 description:
 "Medifacial is a dermatologist-supervised facial designed to treat specific skin concerns such as acne, pigmentation and dullness.",
 benefits: [
@@ -326,7 +326,7 @@ idealFor: ["Skin rejuvenation"]
 
 {
   title: "Vampire (PRP) facial",
-  image: "../../images/services/vampire-prp-facial.jpg",
+  image: "../../images/services/vampire-prp-facial.webp",
   description:
     "The Vampire Facial, or Platelet-Rich Plasma (PRP) facial, combines microneedling with the application of your own concentrated platelets. These growth factors penetrate deep into the skin to accelerate healing, boost collagen production, and dramatically improve skin texture and tone.",
   benefits: [
@@ -354,7 +354,7 @@ idealFor: ["Skin rejuvenation"]
 
 {
   title: "Fire & Ice facials",
-  image: "../../images/services/fire-&-ice.jpg",
+  image: "../../images/services/fire-&-ice.webp",
   description:
     "The Fire & Ice facial is a clinical-grade treatment designed to rapidly and safely resurface the skin. The 'Fire' portion is an intensive resurfacing mask that heats the skin, while the 'Ice' portion is a rejuvenating mask that cools and hydrates, resulting in a smooth, polished complexion without any downtime.",
   benefits: [
@@ -382,7 +382,7 @@ idealFor: ["Skin rejuvenation"]
 
 {
 title: "Hair transplant",
-image: "../../images/services/hair-transplant.jpg",
+image: "../../images/services/hair-transplant.webp",
 description:
 "Hair transplant is a surgical procedure that restores hair in bald areas using healthy hair follicles from the donor area.",
 benefits: [
@@ -405,7 +405,7 @@ idealFor: ["Hair loss", "Baldness"]
 
 {
 title: "PRP injection",
-image: "../../images/services/prp-hair.jpg",
+image: "../../images/services/prp-hair.webp",
 description:
 "PRP therapy uses your own platelet-rich plasma to stimulate hair growth and improve hair thickness.",
 benefits: [
@@ -426,7 +426,7 @@ idealFor: ["Hair thinning"]
 
 {
   title: "GFC injection",
-  image: "../../images/services/gfc-hair.jpg",
+  image: "../../images/services/gfc-hair.webp",
   description:
     "Growth Factor Concentrate (GFC) is an advanced, highly concentrated growth factor preparation engineered from the patient's own blood. Unlike traditional PRP, GFC is acellular and utilizes specifically activated growth factors (like VEGF and PDGF) to directly stimulate hair follicles, resulting in superior hair regeneration and density.",
   benefits: [
@@ -455,7 +455,7 @@ idealFor: ["Hair thinning"]
 
 {
   title: "Hair Botox",
-  image: "../../images/services/hair-botox.jpg",
+  image: "../../images/services/hair-botox.webp",
   description:
     "Despite the name, Hair Botox does not involve needles. It is a deep-conditioning treatment that repairs damaged hair fibers using a powerful cocktail of nutrients, including proteins, amino acids, vitamins, and lipids. It works by 'filling in' the broken or thin areas of each hair strand to make it look full, lustrous, and frizz-free.",
   benefits: [
@@ -483,7 +483,7 @@ idealFor: ["Hair thinning"]
 
 {
   title: "Micropigmentation scalp",
-  image: "../../images/services/smp.jpg",
+  image: "../../images/services/smp.webp",
   description:
     "Scalp Micropigmentation (SMP) is a non-surgical cosmetic treatment that uses highly specialized equipment and techniques to inject medical-grade pigment into the scalp. This creates the appearance of tiny hair follicles, effectively mimicking a closely shaved head or adding density to thinning areas.",
   benefits: [
@@ -511,7 +511,7 @@ idealFor: ["Hair thinning"]
 
 {
   title: "Meso hair",
-  image: "../../images/services/meso-hair.jpg",
+  image: "../../images/services/meso-hair.webp",
   description:
     "Meso hair, or Hair Mesotherapy, is a non-surgical treatment where a specialized cocktail of vitamins, minerals, amino acids, and co-enzymes is injected directly into the scalp's mesoderm (middle layer). This nutrient-rich boost improves microcirculation and delivers essential nourishment directly to the hair follicles to stop hair fall and trigger regrowth.",
   benefits: [
@@ -541,7 +541,7 @@ idealFor: ["Hair thinning"]
 
 {
   title: "Q switch laser",
-  image: "../../images/services/q-switch-laser.jpg",
+  image: "../../images/services/q-switch-laser.webp",
   description:
     "The Q-switch laser is a non-invasive technology that delivers high-intensity light pulses in billionths of a second. This energy shatters excess skin pigment (melanin) or tattoo ink into tiny particles without damaging the surrounding skin. It is the gold standard for treating deep-seated pigmentation and achieving a laser carbon peel 'Hollywood' glow.",
   benefits: [
@@ -568,7 +568,7 @@ idealFor: ["Hair thinning"]
 },
 {
 title: "Laser hair reduction",
-image: "../../images/services/laser.jpg",
+image: "../../images/services/laser.webp",
 description:
 "Laser hair reduction uses advanced laser technology to permanently reduce unwanted hair growth.",
 benefits: [
@@ -590,7 +590,7 @@ idealFor: ["Unwanted hair"]
 
 {
 title: "Fractional CO2 laser",
-image: "../../images/services/fractional-co2-laser.jpg",
+image: "../../images/services/fractional-co2-laser.webp",
 description:
 "Fractional CO2 laser is an advanced resurfacing treatment that improves acne scars, wrinkles and skin texture.",
 benefits: [
@@ -613,7 +613,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 
 {
   title: "RF cautery",
-  image: "../../images/services/rf-cautery.jpg",
+  image: "../../images/services/rf-cautery.webp",
   description:
     "RF cautery uses high-frequency radio waves to perform precise surgical removal of unwanted skin growths. The energy creates heat to vaporize the tissue with minimal damage to the surrounding skin, allowing for bloodless removal of lesions and faster healing compared to traditional surgical methods.",
   benefits: [
@@ -640,7 +640,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 },
 {
   title: "Dermaroller",
-  image: "../../images/services/dermaroller.jpg",
+  image: "../../images/services/dermaroller.webp",
   description:
     "Dermaroller is a microneedling device featuring hundreds of tiny medical-grade needles. As it rolls over the skin, it creates controlled micro-injuries that trigger the body's natural healing response. This process stimulates the production of collagen and elastin, effectively resurfacing the skin from within.",
   benefits: [
@@ -668,7 +668,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 
 {
   title: "HIFU",
-  image: "../../images/services/hifu.jpg",
+  image: "../../images/services/hifu.webp",
   description:
     "HIFU is a non-invasive therapeutic technique that uses focused ultrasound energy to target the deep layers of the skin, including the SMAS (Superficial Muscular Aponeurotic System) layer usually addressed in surgical face lifts. The heat energy triggers a natural injury-repair process, resulting in significant skin tightening and lifting without any incisions.",
   benefits: [
@@ -696,7 +696,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 
 {
   title: "Lipolysis",
-  image: "../../images/services/lipolysis.jpg",
+  image: "../../images/services/lipolysis.webp",
   description:
     "Lipolysis, often referred to as 'fat-dissolving injections,' is a non-surgical procedure used to reduce localized fat deposits. By injecting specialized compounds like deoxycholic acid into the subcutaneous fat layer, the fat cell membranes are disrupted, causing the fat to dissolve and be naturally eliminated by the body's lymphatic system.",
   benefits: [
@@ -724,7 +724,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 
 {
   title: "IV Glutathione",
-  image: "../../images/services/iv-glutathione.jpg",
+  image: "../../images/services/iv-glutathione.webp",
   description:
     "IV Glutathione therapy delivers a high dose of the body's 'master antioxidant' directly into the bloodstream for 100% absorption. This treatment works by inhibiting the enzyme tyrosinase, which produces melanin, leading to systemic skin brightening, detoxification of the liver, and a significant boost in overall skin radiance.",
   benefits: [
@@ -753,7 +753,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 
 {
   title: "Mesobotox",
-  image: "../../images/services/mesobotox.jpg",
+  image: "../../images/services/mesobotox.webp",
   description:
     "Mesobotox is a specialized cosmetic treatment where highly diluted Botox is injected in micro-droplets into the superficial layer of the skin (dermis) rather than the muscles. This technique targets sweat glands, oil glands, and the tiny erector pili muscles, resulting in tightened pores, reduced oiliness, and a smooth, 'filtered' skin texture without affecting facial expressions.",
   benefits: [
@@ -780,7 +780,7 @@ idealFor: ["Acne scars", "Wrinkles"]
 },
 {
 title: "Botox",
-image: "../../images/services/Botox-derma.jpg",
+image: "../../images/services/Botox-derma.webp",
 description:
 "Botox is an injectable treatment used to relax facial muscles and reduce wrinkles and fine lines.",
 benefits: [
@@ -802,7 +802,7 @@ idealFor: ["Wrinkles", "Fine lines"]
 
 {
 title: "Fillers",
-image: "../../images/services/fillers.jpg",
+image: "../../images/services/fillers.webp",
 description:
 "Dermal fillers restore lost volume, enhance facial contours and improve wrinkles.",
 benefits: [
@@ -823,7 +823,7 @@ idealFor: ["Facial volume loss"]
 ,
 {
   title: "Profhilo",
-  image: "../../images/services/profhilo.jpg",
+  image: "../../images/services/profhilo.webp",
   description:
     "Profhilo is an ultra-pure hyaluronic acid treatment that acts as a 'bioremodeler' rather than a traditional filler. It uses patented NAHYCO® technology to deliver one of the highest concentrations of HA on the market. Once injected into specific Bio-Aesthetic Points (BAP), it spreads like honey to stimulate four different types of collagen and elastin, deeply hydrating the skin and curing laxity from within.",
   benefits: [
@@ -850,7 +850,7 @@ idealFor: ["Facial volume loss"]
 },
 {
   title: "PRP",
-  image: "../../images/services/prp.jpg",
+  image: "../../images/services/prp.webp",
   description:
     "Platelet-Rich Plasma (PRP) therapy involves extracting a small amount of your own blood, processing it to concentrate the platelets, and reinjecting it into the skin or scalp. These platelets release essential growth factors that accelerate tissue repair, stimulate collagen production, and revitalize dormant hair follicles.",
   benefits: [
@@ -878,7 +878,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Skin boosters",
-  image: "../../images/services/skin-boosters.jpg",
+  image: "../../images/services/skin-boosters.webp",
   description:
     "Skin boosters are micro-injectable treatments using soft, gel-like hyaluronic acid (HA) to provide deep, long-lasting hydration from within. Unlike traditional fillers that add volume or change facial shape, skin boosters act as an 'internal moisturizer' to improve skin quality, smoothness, and elasticity by stimulating the production of collagen and elastin.",
   benefits: [
@@ -906,7 +906,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "PDO thread lift",
-  image: "../../images/services/pdo-thread-lift.jpg",
+  image: "../../images/services/pdo-thread-lift.webp",
   description:
     "A PDO (Polydioxanone) thread lift is a minimally invasive procedure that uses dissolvable medical-grade sutures to lift and tighten sagging skin. The threads are inserted into the deeper layers of the skin to provide an immediate mechanical lift while simultaneously stimulating the body's natural production of collagen, elastin, and hyaluronic acid for long-term rejuvenation.",
   benefits: [
@@ -934,7 +934,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Dermapen microneedling",
-  image: "../../images/services/dermapen.jpg",
+  image: "../../images/services/dermapen.webp",
   description:
     "Dermapen is an advanced automated microneedling device that uses a sterile, oscillating needle tip to create thousands of precise vertical micro-channels in the skin. This 'fractional' approach triggers a powerful wound-healing response that induces natural collagen and elastin production, making it more efficient and less painful than traditional manual rollers.",
   benefits: [
@@ -962,7 +962,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Cosmetic gynecology nonsurgical",
-  image: "../../images/services/cosmetic-gynecology.jpg",
+  image: "../../images/services/cosmetic-gynecology.webp",
   description:
     "Nonsurgical cosmetic gynecology involves advanced, minimally invasive treatments designed to rejuvenate the intimate area. Using technologies like CO2 lasers, Radiofrequency (RF), or specialized fillers, these procedures address concerns such as laxity, dryness, and pigmentation. These treatments work by stimulating collagen production and improving blood flow to the vaginal tissues without the need for surgery.",
   benefits: [
@@ -990,7 +990,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Nail surgery",
-  image: "../../images/services/nail-surgery.jpg",
+  image: "../../images/services/nail-surgery.webp",
   description:
     "Nail surgery is a minor dermatological procedure performed to treat chronic or painful nail conditions. The most common form is a partial or total nail avulsion, where a portion or the entirety of the nail plate is removed under local anesthesia. For permanent solutions to ingrown nails, chemical matricectomy using phenol is often used to prevent the problematic edge from regrowing.",
   benefits: [
@@ -1017,7 +1017,7 @@ idealFor: ["Facial volume loss"]
 },
 {
   title: "Dermatosurgery",
-  image: "../../images/services/dermatosurgery.jpg",
+  image: "../../images/services/dermatosurgery.webp",
   description:
     "Dermatosurgery involves specialized surgical procedures to treat or improve skin conditions that cannot be addressed by topicals alone. This includes subcision and punch grafting for deep acne scars, melanocyte transplantation for stable vitiligo, and surgical excision or cautery for skin growths and earlobe repairs. These procedures focus on restoring the skin's functional and aesthetic integrity with minimal scarring.",
   benefits: [
@@ -1045,7 +1045,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Old scar treatment",
-  image: "../../images/services/old-scar-treatment.jpg",
+  image: "../../images/services/old-scar-treatment.webp",
   description:
     "Treating old or 'mature' scars requires a combination of techniques to remodel established fibrous tissue. Depending on whether the scar is raised (hypertrophic), sunken (atrophic), or pigmented, we use a tailored approach including Fractional CO2 laser, Microneedling, and specialized peels to break down old collagen and stimulate the growth of new, healthy skin fibers that blend with the surrounding area.",
   benefits: [
@@ -1073,7 +1073,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Skin biopsy",
-  image: "../../images/services/skin-biopsy.jpg",
+  image: "../../images/services/skin-biopsy.webp",
   description:
     "A skin biopsy is a diagnostic procedure where a small sample of skin tissue is removed for microscopic examination in a laboratory. It is the definitive method for diagnosing various skin conditions, including suspicious moles, inflammatory disorders, or chronic infections. Common techniques include punch biopsy (removing a small core), shave biopsy (removing the surface layer), or excisional biopsy (removing the entire lesion).",
   benefits: [
@@ -1101,7 +1101,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Ear piercing",
-  image: "../../images/services/ear-piercing.jpg",
+  image: "../../images/services/ear-piercing.webp",
   description:
     "Professional ear piercing in a clinical setting ensures the highest standards of hygiene and precision. Using a sterile, medical-grade piercing system or specialized needles, the procedure is performed with focused attention on symmetry and skin health. This method minimizes the risk of infection, metal allergies, and trauma to the earlobe or cartilage compared to traditional non-medical methods.",
   benefits: [
@@ -1129,7 +1129,7 @@ idealFor: ["Facial volume loss"]
 
 {
   title: "Eyebrow microblading",
-  image: "../../images/services/eyebrow-microblading.jpg",
+  image: "../../images/services/eyebrow-microblading.webp",
   description:
     "Eyebrow microblading is a semi-permanent makeup technique that creates the illusion of fuller, naturally shaped brows. Using a specialized handheld tool with ultra-fine needles, cosmetic pigments are deposited into the upper dermis in precise, hair-like strokes. This mimics the appearance of real brow hair, providing a long-lasting shape that doesn't smudge or wash off.",
   benefits: [
