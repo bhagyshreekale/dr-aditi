@@ -75,7 +75,7 @@ export default function FAQSection() {
       <div className="relative z-10 mx-auto w-full max-w-3xl px-4 sm:px-6 lg:px-8">
         {/* ── Header ── */}
         <div className="mb-12 text-center md:mb-16">
-          <span className="mb-4 inline-block rounded-full border border-rose-200 bg-white px-4 py-1 text-[10.5px] font-medium uppercase tracking-widest text-rose-400">
+          <span className="mb-4 mt-4 inline-block rounded-full border border-rose-200 bg-white px-4 py-1 text-[10.5px] font-medium uppercase tracking-widest text-rose-400">
             Frequently Asked Questions
           </span>
           <h2
@@ -125,21 +125,14 @@ export default function FAQSection() {
                     {item.question}
                   </span>
 
-                  {/* Toggle Icon */}
                   <span
-                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-300 ${
+                    className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-base font-semibold transition ${
                       isOpen
-                        ? "border-rose-300 bg-rose-100"
-                        : "border-gray-200 bg-white"
+                        ? "border-rose-300 bg-rose-50 text-rose-400"
+                        : "border-gray-200 bg-gray-50 text-gray-400"
                     }`}
                   >
-                    <span
-                      className={`text-lg font-semibold text-rose-500 transition-transform duration-300 ${
-                        isOpen ? "rotate-45" : "rotate-0"
-                      }`}
-                    >
-                      +
-                    </span>
+                    {isOpen ? "−" : "+"}
                   </span>
                 </button>
 
