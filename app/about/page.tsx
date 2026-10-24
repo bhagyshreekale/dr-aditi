@@ -26,9 +26,9 @@ export const metadata = {
 
 export default function About() {
   return (
-    <section className="about-page py-5">
+    <section className="about-page py-5" style={{ minHeight: "100vh" }}>
       {/* ABOUT PREVIEW */}
-      <section className="about-section py-5">
+      <section className="about-section py-5" style={{ minHeight: "600px" }}>
         <Container>
           <Row className="align-items-center g-5">
             {/* LEFT CONTENT */}
@@ -84,10 +84,14 @@ export default function About() {
             {/* RIGHT IMAGE */}
             <Col lg={6}>
               <div className="about-img-bg">
-                <div className="about-img-wrapper">
+                <div className="about-img-wrapper" style={{ minHeight: "400px" }}>
                   <img
                     src="/images/gallery/gallery6.webp"
                     alt="Dr Aditi Patil"
+                    width="600"
+                    height="700"
+                    style={{ width: "100%", height: "auto", display: "block" }}
+                    loading="eager"
                   />
                 </div>
               </div>
@@ -163,11 +167,15 @@ export default function About() {
         <Row className="align-items-center g-5">
           {/* LEFT IMAGE + FLOATING BOX */}
           <Col lg={6}>
-            <div className="about-image-wrapper">
+            <div className="about-image-wrapper" style={{ minHeight: "400px" }}>
               <img
                 src="/images/services/about.webp"
                 alt="Skin Treatment"
                 className="about-main-img"
+                width="600"
+                height="700"
+                style={{ width: "100%", height: "auto", display: "block" }}
+                loading="eager"
               />
 
               {/* FLOATING FEATURE BOX */}

@@ -683,6 +683,7 @@ body {
   background: #bfbfbf;
   padding: 20px;
   position: relative;
+  contain: layout paint style;
 }
 
 /* Image */
@@ -690,6 +691,11 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  aspect-ratio: 6/7;
+  object-fit: cover;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 /* Responsive */
@@ -706,12 +712,18 @@ body {
 /* IMAGE WRAPPER */
 .about-image-wrapper {
   position: relative;
+  contain: layout paint;
 }
 
 .about-main-img {
   width: 100%;
   height: auto;
   display: block;
+  aspect-ratio: 6/7;
+  object-fit: cover;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 /* FLOATING DARK BOX */
