@@ -23,9 +23,9 @@ export default function Appointment() {
           <Card.Body className="p-4 p-md-5">
 
             <div className="text-center mb-4">
-              <h2 className="fw-bold text-primary">Book Appointment</h2>
+              <h2 className="fw-bold text-primary">Book Appointment with the Best Dermatologist in Nashik</h2>
               <p className="text-muted">
-                Schedule your consultation with ease
+                Schedule your skin, hair or cosmetic consultation with Dr. Aditi Patil
               </p>
             </div>
 

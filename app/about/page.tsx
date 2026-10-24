@@ -1,6 +1,29 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { CheckCircleFill } from "react-bootstrap-icons";
 import FuturePlans from '@/components/FuturePlans'
+import { buildOpenGraph } from "../seo-config";
+
+export const metadata = {
+  title: "About Dr. Aditi Patil — Best Dermatologist in Nashik",
+  description:
+    "Meet Dr. Aditi Patil, the best dermatologist and skin specialist in Nashik. Expert in cosmetic dermatology, hair transplant, laser treatments and skin care at Derma Suite Clinic.",
+  keywords: [
+    "about Dr Aditi Patil",
+    "best dermatologist in Nashik",
+    "skin specialist Nashik",
+    "cosmetic dermatologist Nashik",
+    "Dr. Aditi Patil qualifications",
+    "Derma Suite doctor",
+  ],
+  alternates: { canonical: "/about" },
+  openGraph: buildOpenGraph({
+    title: "About Dr. Aditi Patil — Best Dermatologist in Nashik",
+    description:
+      "Meet Dr. Aditi Patil, the best dermatologist and skin specialist in Nashik. Expert in cosmetic dermatology, hair transplant, laser treatments and skin care.",
+    path: "/about",
+  }),
+};
+
 export default function About() {
   return (
     <section className="about-page py-5">
@@ -12,14 +35,15 @@ export default function About() {
             <Col lg={6}>
               <span className="about-subtitle">ABOUT US</span>
 
-              <h5 className="about-title">Meet Our Dermatology Expert</h5>
+              <h5 className="about-title">Meet the Best Skin Specialist in Nashik</h5>
 
               <p className="about-text">
-                <strong>Dr. Aditi Patil</strong> is a qualified dermatologist
-                with special interest and expertise in cosmetic dermatology
-                including skin, hair and nail treatments. She focuses on
-                providing safe, personalised and evidence-based dermatological
-                care using modern technology and advanced treatment methods.
+                <strong>Dr. Aditi Patil</strong> is a leading dermatologist in
+                Nashik with special interest and expertise in cosmetic
+                dermatology including skin, hair and nail treatments. She
+                focuses on providing safe, personalised and evidence-based
+                dermatological care using modern technology and advanced
+                treatment methods.
               </p>
 
               <p className="about-text">
@@ -179,15 +203,16 @@ export default function About() {
           <Col lg={6}>
             <span className="about-label">WHAT WE DO</span>
 
-            <h2 className="about-heading">
-              We’re Experienced in Making You Look Beautiful
+<h2 className="about-heading">
+              Nashik&apos;s Trusted Dermatologist for Skin, Hair & Beauty
             </h2>
 
             <p className="about-desc">
-              Dr. Aditi Patil is a Consultant Dermatologist with MBBS & DDVL and
-              a fellowship in Laser, Aesthetics & Dermatosurgery. She provides
-              evidence-based skin, hair, and anti-aging treatments using US-FDA
-              approved technologies.
+              Dr. Aditi Patil is a Consultant Dermatologist in Nashik with MBBS
+              & DDVL and a fellowship in Laser, Aesthetics & Dermatosurgery. She
+              provides evidence-based skin, hair, and anti-aging treatments
+              using US-FDA approved technologies at Derma Suite, the best skin
+              clinic in Nashik.
             </p>
 
             <button className="about-cta-btn">BOOK APPOINTMENT</button>

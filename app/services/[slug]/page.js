@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 // Import React Bootstrap components
 import { Container, Row, Col, Badge } from 'react-bootstrap';
+import { buildOpenGraph } from "../../seo-config";
 
 function createSlug(text) {
   return text.toLowerCase().trim().replace(/\s+/g, "-").replace(/[()]/g, "");
@@ -13,6 +14,33 @@ export async function generateStaticParams() {
   return servicesData.map((service) => ({
     slug: createSlug(service.title),
   }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const service = servicesData.find((s) => createSlug(s.title) === slug);
+
+  if (!service) return {};
+
+  const title = `${service.title} in Nashik`;
+  const description = `${service.title} treatment in Nashik by Dr. Aditi Patil. ${service.description} Book appointment at Derma Suite, best dermatology clinic in Nashik.`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      `${service.title} in Nashik`,
+      `${service.title} treatment Nashik`,
+      `${service.title} cost Nashik`,
+      `best dermatologist Nashik`,
+    ],
+    alternates: { canonical: `/services/${slug}` },
+    openGraph: buildOpenGraph({
+      title,
+      description,
+      path: `/services/${slug}`,
+    }),
+  };
 }
 
 export default async function ServiceDetail({ params }) {
@@ -35,7 +63,7 @@ export default async function ServiceDetail({ params }) {
       {/* Title */}
       <Row className="mb-4">
         <Col>
-          <h1 className="display-4 fw-bold">{service.title}</h1>
+          <h1 className="display-4 fw-bold">{service.title} in Nashik</h1>
         </Col>
       </Row>
 
@@ -47,7 +75,7 @@ export default async function ServiceDetail({ params }) {
               src={service.image}
               width={500}
               height={400}
-              alt={service.title}
+              alt={`${service.title} treatment in Nashik by Dr. Aditi Patil`}
               className="img-fluid rounded-4 shadow-sm"
               style={{ objectFit: "cover", width: "100%", height: "auto" }}
               priority

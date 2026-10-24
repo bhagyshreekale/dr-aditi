@@ -81,11 +81,12 @@ export default function MedicalDermatology() {
       {/* HERO */}
       <section className="service-hero text-center">
         <Container>
-          <h1 className="hero-title">Medical Dermatology</h1>
+          <h1 className="hero-title">Medical Dermatology in Nashik</h1>
           <p className="hero-text">
             Comprehensive diagnosis and treatment of skin, hair and nail
-            disorders using evidence-based medical dermatology and advanced
-            therapies.
+            disorders by Dr. Aditi Patil, the best skin doctor in Nashik, using
+            evidence-based medical dermatology and advanced therapies at Derma
+            Suite.
           </p>
         </Container>
       </section>

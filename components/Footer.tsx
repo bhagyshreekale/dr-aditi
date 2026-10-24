@@ -3,6 +3,7 @@
 import { useContext } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { ThemeContext } from "@/context/ThemeContext";
+import Link from "next/link";
 import {
   FaPhoneAlt,
   FaMapMarkerAlt,
@@ -22,8 +23,9 @@ export default function Footer() {
             <h5 className="footer-title">DermaSuite</h5>
 
             <p className="footer-text">
-              Advanced dermatology clinic for skin, hair & aesthetic treatments
-              using modern technology and personalized care.
+              Derma Suite is the best dermatology clinic in Nashik for skin,
+              hair & aesthetic treatments. Visit Dr. Aditi Patil, the trusted
+              skin specialist in Nashik, using modern technology and personalized care.
             </p>
 
             <div className="footer-contact">
@@ -49,16 +51,16 @@ export default function Footer() {
 
             <ul className="footer-links">
               <li>
-                <a href="#">About us</a>
+                <Link href="/about">About us</Link>
               </li>
               <li>
-                <a href="#">Services</a>
+                <Link href="/services">Services</Link>
               </li>
               <li>
-                <a href="#">Gallery</a>
+                <Link href="/gallery">Gallery</Link>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <Link href="/contact">Contact us</Link>
               </li>
             </ul>
           </Col>

@@ -81,10 +81,11 @@ export default function SurgicalDermatology() {
       {/* HERO */}
       <section className="service-hero text-center">
         <Container>
-          <h1 className="hero-title">Surgical Dermatology</h1>
+          <h1 className="hero-title">Dermatosurgery in Nashik</h1>
           <p className="hero-text">
-            Advanced minor skin surgeries performed with precision, sterile
-            techniques and cosmetic closure for safe and effective outcomes.
+            Advanced minor skin surgeries at Derma Suite, Nashik — mole & wart
+            removal, nail surgery, scar revision and vitiligo grafting,
+            performed with precision by Dr. Aditi Patil, skin surgery specialist.
           </p>
         </Container>
       </section>

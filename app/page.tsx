@@ -61,13 +61,13 @@ export default function Home() {
         <div className="funnel-content-left">
           
 <h1 className="hero-title">
-  Healthy Skin Starts Here
+  Best Dermatologist in Nashik
   <br />
-  Expert Dermatology Care
+  Expert Skin & Hair Care
 </h1>
 
 <p className="hero-subtitle">
-  <b>Derma Suite</b> offers advanced treatments for skin, hair, and cosmetic concerns with modern technology and expert care.
+  <b>Derma Suite</b> is the leading skin clinic in Nashik offering advanced treatments for skin, hair, and cosmetic concerns with modern technology and expert care by <b>Dr. Aditi Patil</b>, the best skin specialist in Nashik.
 </p>
 
         </div>
@@ -77,7 +77,9 @@ export default function Home() {
       {/* SERVICES */}
       <section className="py-5 services-section">
         <Container>
-          <h2 className="services-heading text-center mb-5">Our Services</h2>
+          <h2 className="services-heading text-center mb-5">
+            Our Dermatology Services in Nashik
+          </h2>
 
           <Row className="g-4">
             {services.map((service, index) => (
@@ -134,14 +136,15 @@ export default function Home() {
             <Col lg={6}>
               <span className="about-subtitle">ABOUT US</span>
 
-              <h5 className="about-title">Meet Our Dermatology Expert</h5>
+              <h5 className="about-title">Meet Your Skin Specialist in Nashik</h5>
 
               <p className="about-text">
-                <strong>Dr. Aditi Patil</strong> is a qualified dermatologist
-                with special interest and expertise in cosmetic dermatology
-                including skin, hair and nail treatments. She focuses on
-                providing safe, personalised and evidence-based dermatological
-                care using modern technology and advanced treatment methods.
+                <strong>Dr. Aditi Patil</strong> is the best dermatologist in
+                Nashik with special interest and expertise in cosmetic
+                dermatology including skin, hair and nail treatments. She
+                focuses on providing safe, personalised and evidence-based
+                dermatological care using modern technology and advanced
+                treatment methods.
               </p>
 
               <p className="about-text">
@@ -197,7 +200,7 @@ export default function Home() {
         <div className="info-container">
           {/* SECTION HEADER */}
           <div className="info-header">
-            <h2>Restore, Enhance & Maintain</h2>
+            <h2>Trusted Skin Clinic in Nashik</h2>
             <p className="subtitle">Believe in yourself & Stay Beautiful!</p>
           </div>
 
@@ -207,8 +210,8 @@ export default function Home() {
               <h3>Our Perspective</h3>
               <p>
                 In the era of social media, everyone wants to show their best
-                side. At the <b>Derma Suite</b> clinic, we believe that every
-                person is beautiful in their own way.
+                side. At the <b>Derma Suite</b> skin clinic in Nashik, we
+                believe that every person is beautiful in their own way.
               </p>
               <p>
                 Serving in the field of cosmetology and dermatology for more
@@ -308,18 +311,18 @@ export default function Home() {
           <Row className="align-items-center">
             {/* LEFT CONTENT */}
             <Col lg={7} className="text-start">
-              <span className="cta-subtitle">QUESTIONS</span>
+              <span className="cta-subtitle">DERMATOLOGIST NASHIK</span>
 
               <h2 className="cta-title">
-                Request a <br /> Consultation.
+                Request a <br /> Skin Consultation.
               </h2>
 
               <p className="cta-text">
-                Our expert team is here to understand your concerns, provide
-                personalized guidance, and recommend the most effective
-                treatment plan tailored to your needs. Book your consultation
-                today and let us help you achieve natural, lasting results with
-                care you can trust.
+                Book your consultation with <b>Dr. Aditi Patil</b>, the best
+                skin doctor in Nashik. Our expert team is here to understand
+                your skin, hair, or aesthetic concerns and recommend the most
+                effective treatment plan tailored to your needs. Get natural,
+                lasting results with care you can trust at Derma Suite.
               </p>
             </Col>
 

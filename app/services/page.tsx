@@ -1,4 +1,25 @@
 import Link from "next/link";
+import { buildOpenGraph } from "../seo-config";
+
+export const metadata = {
+  title: "Skin & Hair Treatment Services in Nashik",
+  description:
+    "Explore all dermatology services at Derma Suite Nashik — chemical peels, facials, hair transplant, laser hair removal, botox, fillers, PRP, scar treatment and more by Dr. Aditi Patil.",
+  keywords: [
+    "dermatology services Nashik",
+    "skin treatment Nashik",
+    "hair treatment Nashik",
+    "laser treatment Nashik",
+    "cosmetic treatment Nashik",
+  ],
+  alternates: { canonical: "/services" },
+  openGraph: buildOpenGraph({
+    title: "Skin & Hair Treatment Services in Nashik",
+    description:
+      "Explore all dermatology services at Derma Suite Nashik — chemical peels, facials, hair transplant, laser, botox, fillers, PRP and more.",
+    path: "/services",
+  }),
+};
 
 export default function Services() {
   const services = [

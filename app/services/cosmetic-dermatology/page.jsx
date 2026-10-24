@@ -83,11 +83,11 @@ export default function CosmeticDermatology() {
       {/* HERO */}
       <section className="service-hero text-center">
         <Container>
-          <h1 className="hero-title">Cosmetic Dermatology</h1>
+          <h1 className="hero-title">Cosmetic Dermatology in Nashik</h1>
           <p className="hero-text">
-            Advanced aesthetic dermatology treatments designed to enhance your
-            natural beauty with safe, clinically proven procedures and visible
-            long-lasting results.
+            Advanced aesthetic dermatology treatments at Derma Suite, the best
+            cosmetic skin clinic in Nashik — Botox, fillers, chemical peels and
+            anti-aging by Dr. Aditi Patil, top cosmetic dermatologist.
           </p>
         </Container>
       </section>

@@ -10,9 +10,10 @@ export default function Contact() {
       {/* HERO */}
       <section className="contact-hero text-center">
         <Container>
-          <h1 className="hero-title">Contact Derma Suite</h1>
+          <h1 className="hero-title">Contact Best Skin Clinic Nashik</h1>
           <p className="hero-text">
-            Book consultations, ask questions, or visit our clinic for advanced
+            Book consultations with Dr. Aditi Patil, the top dermatologist in
+            Nashik, or visit our clinic at Old Gangapur Naka for advanced
             dermatology & aesthetic treatments.
           </p>
         </Container>

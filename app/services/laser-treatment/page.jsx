@@ -83,11 +83,12 @@ export default function LaserTreatment() {
       {/* HERO */}
       <section className="service-hero text-center">
         <Container>
-          <h1 className="hero-title">Laser Treatments</h1>
+          <h1 className="hero-title">Laser Treatment in Nashik</h1>
           <p className="hero-text">
-            Advanced medical laser technologies for permanent hair reduction,
-            pigmentation removal, acne scars and skin rejuvenation with safe
-            and effective results.
+            Advanced medical laser treatments at Derma Suite, Nashik for
+            permanent hair reduction, pigmentation removal, acne scars and skin
+            rejuvenation by Dr. Aditi Patil, the best laser skin specialist in
+            Nashik.
           </p>
         </Container>
       </section>
